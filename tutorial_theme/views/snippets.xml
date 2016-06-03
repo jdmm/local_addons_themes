@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data>
+
+  		<template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
+		  <xpath expr="//div[@id='snippet_structure']" position="inside">
+		    <t t-snippet="tutorial_theme.snippet_testimonial"
+		       t-thumbnail="/tutorial_theme/static/src/img/ui/block_comparison.png"/>
+		  </xpath>
+		</template>
+
+	    <template id="snippet_testimonial" name="Testimonial snippet">
+		  <section class="snippet_testimonial">
+		    <div class="container text-center">
+		      <div class="row">
+		        <div class="col-md-4">
+		          <!-- <img alt="client" class="img-circle" src="/tutorial_theme/static/src/img/incon.jpg"/> -->
+		          <h3>Client Name</h3>
+		          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		        </div>
+		        <div class="col-md-4">
+		          <!-- <img alt="client" class="img-circle" src="/tutorial_theme/static/src/img/incon.jpg"/> -->
+		          <h3>Client Name</h3>
+		          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		        </div>
+		        <div class="col-md-4">
+		          <!-- <img alt="client" class="img-circle" src="/tutorial_theme/static/src/img/incon.jpg"/> -->
+		          <h3>Client Name</h3>
+		          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		        </div>
+		      </div>
+		    </div>
+		  </section>
+		</template>
+
+		
+    </data>
+  </openerp>
