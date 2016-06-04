@@ -3,7 +3,7 @@
   <data>
 
   		<template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
-		  <xpath expr="//div[@id='snippet_structure']" position="inside">
+		  <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
 		    <t t-snippet="tutorial_theme.snippet_testimonial"
 		       t-thumbnail="/tutorial_theme/static/src/img/ui/block_comparison.png"/>
 		  </xpath>
