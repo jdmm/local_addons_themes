@@ -5,7 +5,7 @@
   		<template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
 		  <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
 		    <t t-snippet="tutorial_theme.snippet_testimonial"
-		       t-thumbnail="/tutorial_theme/static/src/img/ui/block_comparison.png"/>
+		       t-thumbnail="/tutorial_theme/static/src/img/ui/testimonial_snippet.png"/>
 		  </xpath>
 		</template>
 
@@ -14,17 +14,17 @@
 		    <div class="container text-center">
 		      <div class="row">
 		        <div class="col-md-4">
-		          <img alt="client" class="img-circle" src="/tutorial_theme/static/src/img/block_comparison.png"/>
+		          <img alt="client" class="img-circle" src="/tutorial_theme/static/src/img/client_1.jpg"/>
 		          <h3>Client Name</h3>
 		          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		        </div>
 		        <div class="col-md-4">
-		          <img alt="client" class="img-circle" src="/tutorial_theme/static/src/img/block_comparison.png"/>
-		          <h3>Client Name</h3>
+		          <img alt="client" class="img-circle" src="/tutorial_theme/static/src/img/client_2.jpg"/>
+		          <h3>Hector Aguilar</h3>
 		          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		        </div>
 		        <div class="col-md-4">
-		          <img alt="client" class="img-circle" src="/tutorial_theme/static/src/img/block_comparison.png"/>
+		          <img alt="client" class="img-circle" src="/tutorial_theme/static/src/img/client_3.jpg"/>
 		          <h3>Client Name</h3>
 		          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		        </div>
